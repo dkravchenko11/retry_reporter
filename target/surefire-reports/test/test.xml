@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="user-ПК" name="tests.Test" tests="7" failures="4" timestamp="7 Dec 2015 12:01:09 GMT" time="23.549" errors="0">
+  <testcase name="findEvents" time="5.587" classname="tests.Test"/>
+  <testcase name="findFeatures" time="0.131" classname="tests.Test">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;[href=\&amp;quot;/ru/featuresERROR\&amp;quot;]&amp;quot;}
+Command duration or timeout: 127 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.46.0&amp;apos;, revision: &amp;apos;61506a4624b13675f24581e453592342b7485d71&amp;apos;, time: &amp;apos;2015-06-04 10:22:50&amp;apos;
+System info: host: &amp;apos;user-ПК&amp;apos;, ip: &amp;apos;10.0.3.158&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_40&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 41ab2cb9-7c9b-4eb8-ba0d-894c09911eab
+*** Element info: {Using=css selector, value=[href=&amp;quot;/ru/featuresERROR&amp;quot;]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"[href=\"/ru/featuresERROR\"]"}
+Command duration or timeout: 127 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'user-ПК', ip: '10.0.3.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 41ab2cb9-7c9b-4eb8-ba0d-894c09911eab
+*** Element info: {Using=css selector, value=[href="/ru/featuresERROR"]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:447)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at tests.Test.findFeatures(Test.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"[href=\"/ru/featuresERROR\"]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'user-ПК', ip: '10.0.3.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10308)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12287)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12229)
+... Removed 21 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="findFeatures" time="0.182" classname="tests.Test">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;[href=\&amp;quot;/ru/featuresERROR\&amp;quot;]&amp;quot;}
+Command duration or timeout: 181 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.46.0&amp;apos;, revision: &amp;apos;61506a4624b13675f24581e453592342b7485d71&amp;apos;, time: &amp;apos;2015-06-04 10:22:50&amp;apos;
+System info: host: &amp;apos;user-ПК&amp;apos;, ip: &amp;apos;10.0.3.158&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_40&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 41ab2cb9-7c9b-4eb8-ba0d-894c09911eab
+*** Element info: {Using=css selector, value=[href=&amp;quot;/ru/featuresERROR&amp;quot;]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"[href=\"/ru/featuresERROR\"]"}
+Command duration or timeout: 181 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'user-ПК', ip: '10.0.3.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 41ab2cb9-7c9b-4eb8-ba0d-894c09911eab
+*** Element info: {Using=css selector, value=[href="/ru/featuresERROR"]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:447)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at tests.Test.findFeatures(Test.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"[href=\"/ru/featuresERROR\"]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'user-ПК', ip: '10.0.3.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10308)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12287)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12229)
+... Removed 21 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="findFeatures" time="0.48" classname="tests.Test">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;[href=\&amp;quot;/ru/featuresERROR\&amp;quot;]&amp;quot;}
+Command duration or timeout: 479 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.46.0&amp;apos;, revision: &amp;apos;61506a4624b13675f24581e453592342b7485d71&amp;apos;, time: &amp;apos;2015-06-04 10:22:50&amp;apos;
+System info: host: &amp;apos;user-ПК&amp;apos;, ip: &amp;apos;10.0.3.158&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_40&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 41ab2cb9-7c9b-4eb8-ba0d-894c09911eab
+*** Element info: {Using=css selector, value=[href=&amp;quot;/ru/featuresERROR&amp;quot;]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"[href=\"/ru/featuresERROR\"]"}
+Command duration or timeout: 479 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'user-ПК', ip: '10.0.3.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 41ab2cb9-7c9b-4eb8-ba0d-894c09911eab
+*** Element info: {Using=css selector, value=[href="/ru/featuresERROR"]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:447)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at tests.Test.findFeatures(Test.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"[href=\"/ru/featuresERROR\"]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'user-ПК', ip: '10.0.3.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10308)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12287)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12229)
+... Removed 21 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="findFeatures" time="3.131" classname="tests.Test">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;[href=\&amp;quot;/ru/featuresERROR\&amp;quot;]&amp;quot;}
+Command duration or timeout: 3.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.46.0&amp;apos;, revision: &amp;apos;61506a4624b13675f24581e453592342b7485d71&amp;apos;, time: &amp;apos;2015-06-04 10:22:50&amp;apos;
+System info: host: &amp;apos;user-ПК&amp;apos;, ip: &amp;apos;10.0.3.158&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_40&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 41ab2cb9-7c9b-4eb8-ba0d-894c09911eab
+*** Element info: {Using=css selector, value=[href=&amp;quot;/ru/featuresERROR&amp;quot;]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"[href=\"/ru/featuresERROR\"]"}
+Command duration or timeout: 3.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'user-ПК', ip: '10.0.3.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 41ab2cb9-7c9b-4eb8-ba0d-894c09911eab
+*** Element info: {Using=css selector, value=[href="/ru/featuresERROR"]}
+	at retry.RetryAnalyzer.retry(RetryAnalyzer.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"[href=\"/ru/featuresERROR\"]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'user-ПК', ip: '10.0.3.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10308)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12287)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous6138675530719232492webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12229)
+... Removed 12 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="findLive" time="0.086" classname="tests.Test"/>
+  <testcase name="findMusic" time="0.306" classname="tests.Test"/>
+</testsuite>

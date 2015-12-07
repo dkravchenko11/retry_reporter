@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [test]" parallel="tests">
+  <listeners>
+    <listener class-name="retry.Reporter"/>
+  </listeners>
+  <test name="test(failed)" parallel="tests" preserve-order="false">
+    <classes>
+      <class name="tests.Test">
+        <methods>
+          <include name="findFeatures"/>
+          <include name="close"/>
+          <include name="init"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
